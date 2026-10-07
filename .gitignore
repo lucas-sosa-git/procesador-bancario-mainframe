@@ -1,6 +1,9 @@
 # Datos y resultados locales; conservar los marcadores de las carpetas.
 datos/*
 !datos/.gitkeep
+!datos/ejemplos/
+datos/ejemplos/*
+!datos/ejemplos/*.txt
 salida/*
 !salida/.gitkeep
 
