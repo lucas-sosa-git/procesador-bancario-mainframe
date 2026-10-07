@@ -1,0 +1,32 @@
+# Datos y resultados locales; conservar los marcadores de las carpetas.
+datos/*
+!datos/.gitkeep
+salida/*
+!salida/.gitkeep
+
+# Archivos temporales y compilados COBOL.
+*.cbl.c
+*.o
+*.obj
+*.mod
+*.int
+*.dll
+*.so
+*.exe
+
+# Python.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editores y sistema operativo.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
